@@ -1,0 +1,40 @@
+.container{
+    width: 1080px;
+    margin: auto;
+  }
+  
+  header{
+    height: 70px;
+    &::after{
+      display: table;
+      content: '';
+      clear: both;
+    }
+    .logo{
+     float: left;
+     img{
+         height: 100px; 
+        }
+     }
+    nav{
+      float: right;
+      li {
+        display: inline-block;
+        margin: 40px 10px;
+        &:hover{
+          color: #3682F9;
+          padding-bottom: 35px;
+          border-bottom: 3px solid #3682F9;
+        }
+      }
+      a{
+        color: black;
+      }
+    }
+  }
+  .jumbotron{
+    background-image: url(../img/jumbotron.jpg);
+    margin-top: 30px;
+    height: 350px;
+    background-size: cover;
+}

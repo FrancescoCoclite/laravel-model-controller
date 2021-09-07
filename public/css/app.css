@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  text-transform: uppercase;
+  color: white;
+}
+
+.container {
+  width: 1080px;
+  margin: auto;
+}
+
+header {
+  height: 70px;
+}
+header::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+header .logo {
+  float: left;
+}
+header .logo img {
+  height: 100px;
+}
+header nav {
+  float: right;
+}
+header nav li {
+  display: inline-block;
+  margin: 40px 10px;
+}
+header nav li:hover {
+  color: #3682F9;
+  padding-bottom: 35px;
+  border-bottom: 3px solid #3682F9;
+}
+header nav a {
+  color: black;
+}
+
+.jumbotron {
+  background-image: url(../img/jumbotron.jpg);
+  margin-top: 30px;
+  height: 350px;
+  background-size: cover;
+}
+
+.section_prodotti {
+  height: 100%;
+}
+
+.prodotti {
+  height: 150px;
+  width: 150px;
+}
+
+footer {
+  background-image: url(../img/footer-bg.jpg);
+  height: 200px;
+}
+
+.container {
+  width: 1080px;
+  margin: auto;
+}
+
+.lista {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
+  color: white;
+}
+.lista li {
+  color: lightgray;
+}
+
+.bottom {
+  background-color: #1C1C1C;
+}
+.bottom .under-footer {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom .under-footer img {
+  margin-right: 20px;
+}
+.bottom .under-footer span {
+  color: #0282F9;
+  vertical-align: super;
+  margin-right: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+button {
+  border: 3px solid #0282F9;
+  padding: 10px;
+  background-color: #1C1C1C;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
