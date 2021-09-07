@@ -16,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layout.app');
 });
-Route::get('/comics', function () {
-    $data= [
-        'comics' => config('arraycomics')
-    ];
-    return view('comics',$data);
-})->name('comics');
+Route::get('/comics', 'ComicController@comics')->name('comics');
+
+Route::get('/dettagli{id}', 'ComicController@dettaglio')->name('dettaglio');
